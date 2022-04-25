@@ -54,6 +54,20 @@ body {
     z-index: 1000;
 }
 
-.header.logo img {
+.header .logo img {
     height: 6rem;
 }
+
+.header .navbar {
+    margin: 0, 1rem;
+    font-size: 1.6rem;
+    color: #fff;
+}
+
+.header .navbar a:hover {
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom: .5rem;
+}
+
+.header .icons {}
