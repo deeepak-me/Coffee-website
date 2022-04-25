@@ -58,10 +58,11 @@ body {
     height: 6rem;
 }
 
-.header .navbar {
-    margin: 0, 1rem;
+.header .navbar a {
+    margin: 0 1rem;
     font-size: 1.6rem;
     color: #fff;
+    text-decoration: none;
 }
 
 .header .navbar a:hover {
@@ -70,4 +71,9 @@ body {
     padding-bottom: .5rem;
 }
 
-.header .icons {}
+.header .icons a {
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-left: 2rem;
+}
