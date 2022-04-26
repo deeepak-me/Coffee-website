@@ -40,6 +40,21 @@ body {
     background: var(--bg);
 }
 
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .8rem 3rem;
+    font-size: 1.7rem;
+    color: #fff;
+    background: var(--main-color);
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    letter-spacing: .2rem;
+}
+
 .header {
     background: var(--bg);
     display: flex;
@@ -122,7 +137,7 @@ body {
 .header .cart-items-container {
     position: absolute;
     top: 100%;
-    right: 0;
+    right: -100%;
     height: calc(100vh - 9.5rem);
     width: 35rem;
     background: #fff;
@@ -163,4 +178,9 @@ body {
 .header .cart-items-container .cart-items .content .price {
     font-size: 1.5rem;
     color: var(--main-color);
+}
+
+.header .cart-items-container .btn {
+    width: 100%;
+    text-align: center;
 }
