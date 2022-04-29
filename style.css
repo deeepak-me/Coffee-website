@@ -114,6 +114,10 @@ body {
     transform-origin: top;
 }
 
+.header .search-form.active {
+    transform: scaleY(1);
+}
+
 .header .search-form input {
     height: 100%;
     width: 100%;
@@ -222,5 +226,9 @@ body {
         margin: 1.5rem;
         padding: .5rem;
         font-size: 2rem;
+    }
+    .header .search-form {
+        width: 90%;
+        right: 2rem;
     }
 }
