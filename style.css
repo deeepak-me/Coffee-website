@@ -13,7 +13,7 @@
     outline: none;
     border: none;
     text-transform: capitalize;
-    transition: 2s linear;
+    transition: .2s linear;
 }
 
 html {
