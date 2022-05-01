@@ -40,6 +40,10 @@ body {
     background: var(--bg);
 }
 
+section {
+    padding: 2rem 7%;
+}
+
 .btn {
     margin-top: 1rem;
     display: inline-block;
@@ -203,6 +207,9 @@ body {
     .header {
         padding: 1.5rem 2rem;
     }
+    section {
+        padding: 2rem;
+    }
 }
 
 @media (max-width:768px) {
@@ -237,4 +244,13 @@ body {
     html {
         font-size: 50%;
     }
+}
+
+.home {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(images/home-img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
