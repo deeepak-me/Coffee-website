@@ -311,6 +311,18 @@ section {
     color: var(--black);
 }
 
+.products .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    gap: 1.5rem;
+}
+
+.products .box-container .box {
+    text-align: center;
+    border: var(--border);
+    pad: 2rem;
+}
+
 
 /*media queries*/
 
