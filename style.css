@@ -332,6 +332,7 @@ section {
     border: var(--border);
     color: #fff;
     margin: .3rem;
+    text-decoration: none;
 }
 
 .products .box-container .box .icons a:hover {
@@ -491,6 +492,7 @@ section {
     font-size: 2.5rem;
     line-height: 1.5;
     color: #fff;
+    text-decoration: none;
 }
 
 .blogs .box-container .box .content .title:hover {
@@ -549,6 +551,7 @@ section {
     color: #fff;
     border: var(--border);
     font-size: 2rem;
+    text-decoration: none;
 }
 
 .footer .links a:hover {
