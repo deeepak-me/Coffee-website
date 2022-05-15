@@ -511,6 +511,15 @@ section {
     padding: 1rem 0;
 }
 
+.footer {
+    background: var(--black);
+    text-align: center;
+}
+
+.footer.share {
+    padding: 1rem 0;
+}
+
 
 /*media queries*/
 
